@@ -1,0 +1,12 @@
+/* Se definen los estilos y tamaños sobre todo de los divs */
+#graficobarras {    
+    position:absolute;
+    top:100px;
+    left:10px;
+    width:980px;
+    height:610px; 
+  }
+
+  .axis .domain {
+    display: none;
+  }

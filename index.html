@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoteles</title>
+    
+    <style href="style.css"></style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script type="text/javascript" src="http://d3js.org/d3.v4.min.js"></script>
+	<script src="app.js"></script>
+</head>
+
+<body onload="graficobarras()">
+	<nav class="d-flex jutify-content-between navbar navbar-light bg-light shadow">
+		<a href="/">
+		  <img src="https://www.unir.net/wp-content/uploads/2020/03/logo-horizontal-1536x925.png" height="150" width="150" class="logo">
+		</a>
+		Herramientas de Visualización
+	  </nav>
+	
+	  <div class="container mt-4">
+		<div class="row">
+		  <div class="col-md-3">
+			<h4>Ocupación de hoteles</h4>
+			<p>La cadena de hoteles "Resort Ave María" desea evaluar la apertura de un nevo hotel de 5 estrellas en Aguas Calientes; por ello, desea conocer cómo se encuentra el mercado y la oferta de la misma.</p>
+			<p>Se realiza de manera prelimnar una evaluación respecto al nivel de ocupaciónd de los hoteles en el último año, en el cual se observa que el promedio de ocuapción mensual es de aproximadamente 4000 turistas, tanto residentes como no residentes.</p>
+			<p>Por ello, se aprecia, que se debe investigar a profundidad con otros indicadores, como el porcentaje de ocupación por cada tipo de hotel, según las estrellas que tengan, lo que permitirá conocer el estado de la demanda durante el último trimestre del año anterior. </p>
+		  </div>
+	
+		  <div class="col-md-9">
+			<div id="titulo"><H2>Ocupacion por hotel</H2></div>
+			<div id="botones"></div>
+			<div id="graficobarras"></div>
+			<!-- <div id="graf" class="vizprev"></div> -->
+	
+		  </div>
+	
+		</div>
+	  </div>
+<!-- Se generan los divs para alojar los gráficos -->
+	
+</body>
+</html>
